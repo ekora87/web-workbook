@@ -3,6 +3,7 @@
 <head>
   <title>Airplane</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="top-nav">
@@ -15,10 +16,51 @@
   </div>
 </div>
 
-<div class="search-box">
-  <p>
-    testing
-  </p>
+<div class="search-box clearfix">
+    <div class="icons" id="plane-icon"></div>
+    <div class="icons" id="hotel-icon"></div>
+    <div class="icons" id="car-icon"></div>
+    <div class="date-box clearfix">
+      <div class="box">
+        <p>
+          Depart
+        </p>
+      </div>
+      <div class="box">
+        <p>
+          Arrive
+        </p>
+      </div>
+      <div class="box">
+        <p class="date">
+          mm/dd/yyyy
+        </p>
+      </div>
+      <div class="box">
+        <p class="date">
+          mm/dd/yyyy
+        </p>
+      </div>
+    </div>
+    <div class="passengers-box clearfix">
+      <div class="radio-div passenger">
+      <p>Passengers</p>
+    </div>
+      <div class= "radio-div dropdown">
+        <span>1<i class="fa fa-caret-down"></i></span>
+      </div>
+      <div class="radio-div radio-button">
+        <form action="">
+          <input type="radio" name="choice" value="return">Return
+          <input type="radio" name="choice" value="one way">One Way<br>
+        </form>
+      </div>
+    </div>
+    <div class="search-flights">
+      <p>
+        Search Flights
+      </p>
+    </div>
 </div>
 </body>
 </html>

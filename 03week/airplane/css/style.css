@@ -1,3 +1,8 @@
+.clearfix:after{
+  content:'';
+  display: block;
+  clear:both;
+}
 body{
   background: url("../img/airline.jpg");
   background-repeat: no-repeat;
@@ -9,7 +14,7 @@ body{
   width: 100%;
   height: auto;
   background-color: #193A55;
-
+  border-bottom: 1px solid white;
 }
 .nav-links{
   float: right;
@@ -30,5 +35,81 @@ a > img{
 .search-box{
   width: 400px;
   height: 400px;
-  background-color: red;
+  background-color: #193A55;
+  margin: 100px 50px;
+  border-radius: 2%;
+  overflow: hidden;
+}
+
+.icons{
+  width: 33.33%;
+  height: 15%;
+  float: left;
+}
+#plane-icon{
+  background: url("../img/plane-icon.png") no-repeat center center;
+  background-size: 30%;
+  background-color: #0063B7;
+}
+#hotel-icon{
+  background: url("../img/hotel-icon.png") no-repeat center center;
+  background-size: 30%;
+  background-color: #018D80;
+}
+#car-icon{
+  background: url("../img/car-icon.png") no-repeat center center;
+  background-size: 30%;
+  background-color: #018D80;
+}
+.date-box{
+  margin-top: 100px;
+}
+.box{
+  border: 3px solid white;
+  border-radius: 5%;
+  width: 170px;
+  float: left;
+  margin: 0 12px 20px 12px;
+
+}
+.date{
+  color: white;
+}
+.box > p{
+  margin-left: 10px;
+}
+.passengers-box{
+  color: white;
+  margin-left: 12px;
+}
+.dropdown{
+  border: 2px solid white;
+  border-radius: 5%;
+  width: 63px;
+  height: 40px;
+  line-height: 40px;
+}
+span{
+  margin-left: 10px;
+}
+i{
+  margin-left: 35px;
+  
+}
+.radio-div{
+  float: left;
+  padding-right: 20px;
+}
+.radio-button{
+  margin-left: 20px;
+  height: 40px;
+  line-height: 40px;
+}
+.search-flights{
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #0D67BD;
+  line-height: 50px;
 }
