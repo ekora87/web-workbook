@@ -14,7 +14,11 @@ body{
   width: 100%;
   height: auto;
   background-color: #193A55;
+<<<<<<< HEAD
   border-bottom: 1px solid white;
+=======
+  border-bottom: 1p
+>>>>>>> e6d17f7762dfe18304262d2f558b7e887ddc37e9
 }
 .nav-links{
   float: right;
@@ -40,6 +44,7 @@ a > img{
   border-radius: 2%;
   overflow: hidden;
 }
+<<<<<<< HEAD
 
 .icons{
   width: 33.33%;
@@ -112,4 +117,21 @@ i{
   text-align: center;
   background-color: #0D67BD;
   line-height: 50px;
+=======
+.top-icons{
+  width: 100%;
+  height: 10%;
+
+}
+.icons{
+  background-color: green;
+  width: 30%;
+  align-content: center;
+}
+.icons img{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  align-content: center;
+>>>>>>> e6d17f7762dfe18304262d2f558b7e887ddc37e9
 }
