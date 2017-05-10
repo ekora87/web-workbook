@@ -1,0 +1,57 @@
+body{
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+.welcome-box{
+  background-color: #2BCDC0;
+  width: 100%;
+  text-align: center;
+}
+
+.welcome-box > h1{
+  margin: 0;
+  padding: 200px 0;
+}
+.bottom-box{
+  background: black;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  justify-content: space-around;
+
+}
+.bottom-box > div{
+  width: 150px;
+  text-align: center;
+  margin-top: 30px;
+}
+h2{
+  margin-top: 10px;
+}
+.blue, .orange, .teal{
+  width: 100%;
+  height: 30px;
+}
+.blue{
+  background: blue;
+}
+.orange{
+  background: orange;
+}
+.teal{
+  background: teal;
+}
+
+@media only screen and (max-width: 991px){
+  .bottom-box{
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .welcome-box{
+    width: auto;
+  }
+
+}
