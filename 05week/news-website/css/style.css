@@ -1,0 +1,29 @@
+.bg-color{
+  background-color: #3AB371;
+}
+header{
+  text-align: center;
+}
+header > h1{
+  color: white;
+}
+header > a{
+  color: gray;
+  font-size: 20px;
+}
+.top-left-article{
+  background: white;
+  height: 600px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}
+.scuba-pic{
+  background-image: url("../img/scuba.jpg");
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
