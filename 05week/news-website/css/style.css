@@ -15,6 +15,7 @@ header > a{
 }
 .panel{
   height: 100%;
+
 }
 .panel.noborder{
   border: 0;
@@ -23,4 +24,17 @@ header > a{
 img{
   max-width: 100%;
   max-height: 100%;
+}
+.panel-body{
+  width: 100%;
+}
+.panelFooter{
+  position: absolute;
+  bottom: 0;
+  width: inherit;
+  display: flex;
+
+}
+#comments{
+  margin-left: auto;
 }
